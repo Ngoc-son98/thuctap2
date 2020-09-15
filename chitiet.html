@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chitiet</title>
+	<link rel="stylesheet" type="text/css" href="css/stylechitiet.css">
+	<link rel="stylesheet"  href="css/slick.css">
+	<!-- link lay icon -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<!-- <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/chuyendoan.js"></script>
+
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ -->
+<!-- <script src="js/jquery-1.11.1.min.js"></script> -->
+
+</head>
+
+<body>
+	<script type="text/javascript">
+	function ChangeImage(src){
+		//tac dong vao thuoc tinh src cua the html co id=show-img
+		document.getElementById('show-img').setAttribute("src",src);
+	}
+	
+</script>
+	<div class="top">
+		<div class="top_left">
+			<ul>
+				<li><a href="#"><i class="fas fa-truck-moving"></i>Miễn phí giao hàng</a></li>
+				<li><a href="#"><i class="fas fa-book"></i>20.000 tựa sách</a></li>
+				<li><a href="#"><i class="fas fa-mobile-alt"></i>ABCbook Reader</a></li>
+			</ul>
+		</div>
+		<div class="top_right">	
+			<ul>
+				<li><a href="#"><i class="fas fa-thumbs-up"></i> Like</a></li>
+				<li><a href="#"><i class="fas fa-share-alt-square"></i>share</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="timkiem">
+		<div class="chu">
+			<b><span style="color: #b9bb0f;">ABC</span><span style="color: #0f0fbb;">book</span><span style="color: #b9bb0f;">.com</span></b>
+		</div>
+		<div>
+			<div class="input-group">
+				<i class="fas fa-search"></i>
+				<input type="text"  class="react-autosuggest__input" name="q" placeholder="Tìm kiếm tựa sách, tác giả" value="">
+				<button title="Tìm sách" class="search-magnifier btn" type="submit">Tìm sách</button>
+			</div>
+		</div>
+		<div class="tk_right">
+			<div class="cart">
+				<i class="fas fa-shopping-cart"></i>
+			</div>
+			<div>
+				<a href="#">Đăng nhập | Đăng ký </a>
+			</div>
+		</div>
+	</div>
+
+	<div class="menu">
+		<div class="menu_left">
+			<i class="fas fa-bars"></i>
+				<a href="#">Danh Mục Sách</a>
+			<i class="fas fa-angle-down"></i>
+		</div>
+		<div class="menu_right">
+			<ul>
+				<li><a href="#"><i class="fas fa-phone-volume"></i>Hotline:035 9966 660</a></li>
+				<li><a href="#"><i class="fas fa-comments"></i>Hỗ trợ trực tuyến</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+
+	<div class="duongdan">
+		<h3><a href="#">Trang chủ > Sách blooktrain > Light Novel</a></h3>
+	</div>
+
+<div class="container"> 
+ <div class="card"> 
+  <div class="container-fliud"> 
+   <div class="wrapper row"> 
+    <div class="preview col-md-6"> 
+     <div class="preview-pic"> 
+    <!--   <div class="tab-pane  " ><img src="img/thichnhathanh.jpg" >
+      </div> 
+      <div class="tab-pane" ><img src="img/thichnhathanh.jpg" >
+      </div> 
+      <div class="tab-pane"><img src="img/thichnhathanh.jpg" >
+      </div> 
+      <div class="tab-pane" ><img src="img/thichnhathanh.jpg" >
+      </div>  -->
+      <div class="tab-pane active" ><img  id="show-img" src="img/pv.jpg" >
+      </div> 
+     </div> 
+     <ul class="preview-thumbnail nav nav-tabs">
+      <li class="actives"><a  onclick="ChangeImage('img/thichnhathanh.jpg')"><img src="img/pv.jpg" ></a>
+      </li> 
+      <li><a onclick="ChangeImage('img/pv.jpg')" ><img src="img/pv.jpg" ></a>
+      </li> 
+      <li><a onclick="ChangeImage('img/lienquan.PNG')" ><img src="img/lienquan.PNG" ></a>
+      </li> 
+      <li><a  onclick="ChangeImage('img/thichnhathanh.jpg')"><img src="img/pv.jpg" ></a>
+      </li> 
+      <li><a   onclick="ChangeImage('img/thichnhathanh.jpg')"><img src="img/pv.jpg" ></a>
+      </li> 
+     </ul> 
+    </div> 
+    <div class="details col-md-6"> 
+     <h3 class="product-title">Nguyệt đạo dị giới-Tập 2</h3> 
+     <div class="rating"> 
+      <div class="stars"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+      </div> <span class="review-no">123 đánh giá</span> 
+     </div> 
+     <p class="product-description">Tiếp tục cuộc hành trình tại thế giới mới ở tập 1, cậu học sinh trung học bình thường đến từ Trái Đất Misumi Makoto sau khi bị Nữ thần ném xuống nơi Tận cùng của Thế giới (vì xấu trai…), cuối cùng cậu cũng đã có thể thoát khỏi cái nơi khỉ ho cò gáy ấy và tiến dần từng bước đến với xã hội Loài người.
+
+				Misumi Makoto cùng Mio, Tomoe và nhóm mạo hiểm giả Toa đặt chân đến Ziegie. Đây là thị trấn loài người đầu tiên Makoto gặp được kể từ khi đến dị giới. Cuối cùng cậu cũng có thể thực hiện mong muốn giản đơn là được gặp gỡ và trò chuyện với con người của mình.
+
+				Đến thị trấn mới, với mục đích trở thành thương nhân và tạo được thương hội của riêng mình, Makoto đã thành công tiếp cận Rembrandt – một thương nhân có thế lực không nhỏ tại Ziege bằng con đường cung cấp vật liệu chế thuốc. Nhưng cũng chính lúc đó, cậu lại phát hiện ra gia đình của Rembrandt đang vô cùng khổ sở khi phải hứng chịu một “lời nguyên rủa” khiến vợ và con gái ông có thể phát điên bất cứ lúc nào.</p> 
+     	<h4 class="price">Giá bán: 200.000 đ</h4> 
+     	<p class="vote"><strong>91%</strong> of người mua hài lòng với sản phẩm này <strong>(87 bình chọn)</strong>
+    	 </p> 
+     	<h5 class="sizes">Tác giả:  Aduka 
+    	 </h5> 
+    	 <h5 class="colors">Màu: <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span> <span class="color green"></span> <span class="color blue"></span> 
+    	 </h5> 
+     		<div class="action"> <a href="#" target="_blank">            <button class="add-to-cart btn btn-default" type="button">MUA NGAY</button>            </a>             <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>            </a> 
+     	</div> 
+    </div> 
+   </div> 
+  </div> 
+ </div>
+</div> 
+<div class="main_thongtin">
+ 	<div class="services">
+ 		<div class="menu_services">
+ 			<ul>
+ 				<li class="active_services"><b>Thông tin sản phẩm</b></li>
+ 				<li><b>Khách hàng nhận xét</b></li>
+ 			</ul>
+ 		</div>
+ 		<div class="cackhoi">
+			<div class="_motkhoi active">
+ 			<div class="thongtinchitiet">
+ 				<table>
+ 				<tr>
+ 					<td>Mã hàng</td>
+ 					<td>09350723535234</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Tên Nhà Cung Cấp</td>
+ 					<td>Cty Hoá Văn</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Tác Giả</td>
+ 					<td>Chiery Leve</td>
+ 				</tr>
+ 				<tr>
+ 					<td>NXB</td>
+ 					<td>NXB Thanh Niên</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Năn XB</td>
+ 					<td>2020</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Trọng Lượng(gr)</td>
+ 					<td>200</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Kích thước(cm)</td>
+ 					<td>13 x 21</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Số trang</td>
+ 					<td>174</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Hình thức</td>
+ 					<td>Bìa Mềm</td>
+ 				</tr>
+ 				<tr>
+ 					<td>Sản phẩm bán chạy nhất</td>
+ 					<td><a href="#">Top 100 sản phẩm kinh điển bán chạy nhất</a></td>
+ 				</tr>
+ 				</table>
+			</div>
+ 				<div class="gachngang">
+ 			
+ 				</div>
+
+ 				<div class="chitiet">
+ 				<p>&nbsp;&nbsp;&nbsp;    Cuốn sách nắm trong bộ sách Thần thoại hy lạp bao gồm các truyển thuyết về các vị thần và các anh hùng của Hy Lạp. Qua những câu truyện đặc sắc, tre em có cơ hội được tìm hiểu về văn hoá phương Tây và thu thập kiến thuwwcsveef nhiều lĩnh vực khác nhau như ngôn ngữ , văn hoá, nghệ thuật...</p>
+ 				<p>&nbsp;&nbsp;&nbsp;    Thần thoại hy lạp được kể lại phù hợp với tư duy và khả năng tiếp nhận của các đọc giả nhỏ tuổi,dựa trên nguyên tắc của tác giả và cũng là tác phẩm thể hiện một cách đầy đủ nhất, sâu sắc nhất , thần thaoij Hy lạp - di sản vĩ đại của nhân loại .Qua đó trẻ tự viết và tư duy logic.
+ 				</p>
+ 				<p> &nbsp;&nbsp;&nbsp;   Kết thúc mỗi câu chuyện, bộ sách còn cung cấp những thông tin, kiến thức khoa học, văn hóa, nghệ thuật xác thực, giúp trẻ mở rộng vốn hiểu biết qua góc Thỏa sức khám phá tri thức. Không dừng lại ở đó, với góc Thỏa sức sáng tạo, bộ sách còn mang tới cho trẻ một không gian sáng tạo, nơi trẻ có thể tự đặt ra những câu hỏi và tự do phát triển trí tưởng tượng của bản thân.
+ 				</p>
+ 				<button class="button">Xem Thêm</button>
+ 				</div>
+ 			</div>
+ 			<div class="_motkhoi">
+ 				<div id="sao">
+ 					<div class="sao">
+ 						<div class="sao_1"><b>0/5</b></div>
+ 						<div class="sao_2">
+ 							<div class="rating">
+							    <input type="radio" id="star5" name="rating" value="5" />
+							    <label class = "full" for="star5" title="Awesome - 5 stars"></label>
+							 
+							    <input type="radio" id="star4" name="rating" value="4" />
+							    <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+							 
+							    <input type="radio" id="star3" name="rating" value="3" />
+							    <label class = "full" for="star3" title="Meh - 3 stars"></label>
+							 
+							    <input type="radio" id="star2" name="rating" value="2" />
+							    <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+							 
+							    <input type="radio" id="star1" name="rating" value="1" />
+							    <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+							</div>
+ 						</div>
+ 						<div class="sao_3">
+ 							0 review
+ 						</div>
+ 					</div>
+ 					<div class="nhanxet"></div>
+ 					<div class="luuy"></div>
+ 				</div>
+ 				<div id="nhanxet">
+ 					
+ 				</div>
+ 			</div>
+		 </div>
+		</div>
+ 	<div class="goiy">
+ 		<img src="img/lienquan.png">
+ 		</div>
+ 
+</div>
+
+<div class="sachlienquan">
+	<div class="tensach">
+		<b>CÓ THỂ BẠN QUAN TÂM</b>
+	</div>
+	<div class="ganhngang1"></div>
+	<div class="cacsach">
+		<div class="product-group multiple-itemss">				
+<div class="products-i">
+<div class="product-item">
+	<div class="product-img text-center">
+		<a href="#" class="img-resize" style="height: 246px;">
+			<img src="img/thichnhathanh.jpg" alt="Gel Dưỡng Da Hyaluronic Acid 3W Clinic Water Sleeping Pack">
+		</a>
+	</div>
+	<div class="product-title text-left">
+		<a href="/products/gel-duong-da-hyaluronic-acid-3w-clinic-water-sleeping-pack">Đường Xưa Mây Trắng (Bìa Cứng) - Tái Bản 2020</a>
+	</div>
+	<div class="product-price text-center clearfix">
+		<div class="current-price">135,000₫</div>
+		<div class="original-price"><s>250,000₫</s></div>
+	</div>
+	<div class="product-actions text-center">
+		
+		<a href="file:///F:/baibaophp/chitiet.html" class="btnViewProduct">Xem chi tiết</a>
+		<button type="button" class="btnBuyNow buy-now" data-id="1013902612">Mua ngay</button>
+			
+	</div>
+	<div class="product-sale-tag">
+		
+		<span class="sale-off">-46%</span>
+		
+		
+	</div>
+</div>
+</div>
+
+
+					
+						
+
+
+
+
+
+
+
+
+
+<div class="products-i">
+<div class="product-item">
+	<div class="product-img text-center">
+		<a href="#" class="img-resize" style="height: 246px;">
+			<img src="img/thichnhathanh2.jpg" alt="Kem Dưỡng Da Ban Ngày Palmer’s Cocoa Butter Formula Skin Perfecting Moisturizing Day Cream">
+		</a>
+	</div>
+	<div class="product-title text-left">
+		<a href="/products/kem-duong-da-ban-ngay-palmer-s-cocoa-butter-formula-skin-perfecting-moisturizing-day-cream">Đường Xưa Mây Trắng (Bìa Cứng) - Tái Bản 2020</a>
+	</div>
+	<div class="product-price text-center clearfix">
+		<div class="current-price">252,000₫</div>
+		
+	</div>
+	<div class="product-actions text-center">
+		
+		<a href="file:///F:/baibaophp/chitiet.html" class="btnViewProduct">Xem chi tiết</a>
+		<button type="button" class="btnBuyNow buy-now" data-id="1013902603">Mua ngay</button>
+			
+	</div>
+	<div class="product-sale-tag">
+		
+		
+	</div>
+</div>
+</div>
+
+			
+		
+<div class="products-i">
+<div class="product-item">
+	<div class="product-img text-center">
+		<a href="#" class="img-resize" style="height: 246px;">
+			<img src="img/thichnhathanh.jpg" alt="Kem Dưỡng Da Tay Giữ Ẩm Bơ Hạt Mỡ Palmer’s Shea Formula Raw Shea Hand Cream">
+		</a>
+	</div>
+	<div class="product-title text-left">
+		<a href="/products/kem-duong-da-tay-giu-am-bo-hat-mo-palmer-s-shea-formula-raw-shea-hand-cream">Đường Xưa Mây Trắng (Bìa Cứng) - Tái Bản 2020</a>
+	</div>
+	<div class="product-price text-center clearfix">
+		<div class="current-price">89,000₫</div>
+		<div class="original-price"><s>105,000₫</s></div>
+	</div>
+	<div class="product-actions text-center">
+		
+		<a href="file:///F:/baibaophp/chitiet.html" class="btnViewProduct">Xem chi tiết</a>
+		<button type="button" class="btnBuyNow buy-now" data-id="1013902515">Mua ngay</button>
+			
+	</div>
+	<div class="product-sale-tag">
+		
+		<span class="sale-off">-15%</span>
+		
+		
+		<span class="new">Mới</span>
+		
+	</div>
+</div>
+</div>
+
+
+
+<div class="products-i">
+<div class="product-item">
+	<div class="product-img text-center">
+		<a href="#" class="img-resize" style="height: 246px;">
+			<img src="img/thichnhathanh.jpg" alt="Kem Dưỡng Da Vichy Ideal White Eyes Deep Whitening Illuminating Concentrate">
+		</a>
+	</div>
+	<div class="product-title text-left">
+		<a href="#">Đường Xưa Mây Trắng (Bìa Cứng) - Tái Bản 2020</a>
+	</div>
+	<div class="product-price text-center clearfix">
+		<div class="current-price">820,000₫</div>
+		
+	</div>
+	<div class="product-actions text-center">
+		
+		<a href="file:///F:/baibaophp/chitiet.html" class="btnViewProduct">Xem chi tiết</a>
+		<a href="javascript:void(0)" class="btnBuyNow buy-now">Hết sách</a>
+			
+	</div>
+	<div class="product-sale-tag">
+		
+		
+	</div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+
+<footer>
+	<img src="img/footer.png">
+</footer>
+
+	<script type="text/javascript">
+	function ChangeImage(src){
+		//tac dong vao thuoc tinh src cua the html co id=show-img
+		document.getElementById('show-img').setAttribute("src",src);
+	}
+	
+</script>
+	
+
+</body>
+</html>
